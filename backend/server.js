@@ -17,7 +17,7 @@ connectDB();
 app.use(express.json());
 app.use(
   cors({
-    origin: ["http://localhost:5173"],
+    origin: ["https://todo-theta-lac.vercel.app/"],
     credentials: true,
   })
 );
